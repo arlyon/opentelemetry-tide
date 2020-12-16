@@ -75,7 +75,7 @@ use tide::{http::Version, Middleware, Next, Request, Result};
 use url::Url;
 
 // const PKG_NAME: &str = env!("CARGO_PKG_NAME");
-const CRATE_NAME: &str = env!("CARGO_CRATE_NAME");
+const CRATE_NAME: &str = env!("CARGO_PKG_NAME");
 const VERSION: &str = env!("CARGO_PKG_VERSION");
 
 /// The middleware struct to be used in tide
